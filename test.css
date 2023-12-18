@@ -1,0 +1,268 @@
+
+body {
+    width: 900px;;
+    height: 100;
+    margin:auto;
+    border: 2px solid  rgba(35, 97, 190, 0.87);
+
+    
+  }
+  
+  header {
+    background-color: rgba(35, 97, 190, 0.87);
+    height: 55px;
+    margin: auto;
+    padding-left: 10px;
+  }
+  
+  .headfont {
+    font-family: 'Trebuchet MS';
+    font-size:50px;
+    text-align: center;
+    margin: auto;
+    margin-right: 5vw;
+    margin-left: 170px; 
+  }
+  
+  .profile-photo {
+    height: 180px;
+    width: 120px;
+    position: absolute;
+    padding-top: 1px;
+    top: 10px;
+    height: 164px;
+    width: 118px;
+
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .headfont {
+      font-size: 5vw;
+      margin-right: 2vw;
+      margin-left: 2vw;
+    }
+  
+    .profile-photo {
+        width: auto;
+        max-width: 100px;
+        max-width: 125px;
+        height: auto;
+        padding-top: 5px;
+    
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .headfont {
+      font-size: 6vw;
+      margin-right: 1vw;
+      margin-left: 1vw;
+    }
+  
+    .profile-photo {
+      height: 80px;
+      width: 120px;
+      padding-left: 80px;
+      background-color: gray;
+    }
+  
+  }
+  
+.container{
+
+    position: relative;
+    width: 100%;
+    /* max-width: 1000px;
+    min-height: 1150px; */
+    /* margin: 50px;
+    background:white; */ 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: rgb(255, 250, 250) */
+  }
+.leftAlignment{
+    position: relative;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+ 
+h1{
+    font-size: 17px;
+    font-family:'Trebuchet MS';
+}
+h7{
+    line-height: 1.0em;
+    font-weight: 100;
+font-size: 1.0em;
+font-family: 'Trebuchet MS';
+}
+ 
+ 
+ 
+ 
+h3{
+    padding-top: 30px;
+    padding-left: 165px;
+    color: #ffffff;
+    font-size: 60px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+a{
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+text-decoration: none;}
+ 
+.RightAlignment
+  {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 50px
+  }
+
+
+.centeralign{
+    text-align:justify;
+}
+
+
+p{
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: rgb(56, 58, 59);
+    padding-left: 6px;
+}
+ 
+.Headings{
+    font-family: Cambria;
+    font-size: 23px;
+    color: rgb(17, 15, 19);
+    /* padding-top: 10px; */
+}
+.tech{
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size:4px;
+    
+}
+.collegeDetails{
+    font-family: 'Trebuchet MS' ;
+    font-size: 17px;
+    color: rgb(48, 46, 52);
+    padding-top: 0.1px;
+    line-height: 0.0em;
+    
+    
+ 
+}
+ 
+   
+    .Gettouch{
+        padding-left: 30px;
+        line-height: 0.2em;
+    }
+    .image{
+        height:100px ;
+        height: 100px;
+        padding-left: 80px;
+        padding-top: 70px;
+
+ 
+    }
+.Bachelors{
+    
+    padding-bottom: 5px;
+}
+    .diploma{
+        /* padding-top: 10px; */
+        padding-bottom: 10px;
+        /* line-height: 1.0em; */
+    
+        
+    }
+    .ssc{
+        line-height: 1.2em;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 1px;
+    }
+    .Education{
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+        .project{
+            line-height: 0.5em;
+            /* padding-top: px; */
+            padding-bottom: 0.2px;
+
+    
+        }
+        .projects{
+            line-height: 1.5em;
+            padding-top: 0px;
+            padding-top: 0.2px;
+        }
+    h6{
+        
+        font-family: 'Trebuchet MS';
+        font-size: 16px;
+        line-height: 0.1em;
+        color: rgb(56, 58, 59);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    h2{
+        font-size: 10px;
+        font-family: 'Trebuchet MS';
+        line-height: 0.3em;
+    }
+    img{
+        height: 120px;
+        width: 80px;
+        padding-top: 50px;
+    }
+.work{
+    line-height: 1.0em;
+    padding-top: 25px;
+}
+.get in touch{
+    padding-top:0px;
+    font-size: medium;
+}
+.nse{
+    padding-left: 10px;
+    line-height: 0.2em;
+    padding-bottom: 2px;
+    font-family:Cambria;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.java{
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    color: rgb(56, 58, 59);}
+
+@media (max-width:1000px)
+{
+  .container
+  {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+ 
